@@ -1,6 +1,6 @@
 import { Router } from "express";
 import db from "../db/connection.js";
-import { ObjectId } from "mongodb";
+import { ObjectId } from "mongodb"; // This helps convert the id from string to object id
 
 const router = Router();
 const SKILLS_COLLECTION = db.collection("skills");
